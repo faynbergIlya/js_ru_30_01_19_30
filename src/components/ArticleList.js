@@ -1,6 +1,6 @@
 import React, {Component, PropTypes} from 'react'
 import Article from './Article'
-
+//все ок, кроме декоратора
 export default class ArticleList extends Component {
     static propTypes={
         articles: PropTypes.array.isRequired
