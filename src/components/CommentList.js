@@ -1,7 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 import Comment from './Comment'
 
 class CommentList extends Component {
+    static propTypes={
+        actionText: PropTypes.string.isRequired
+    }
     static defaultProps = {
         comments: []
     }
