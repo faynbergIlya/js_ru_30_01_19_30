@@ -3,7 +3,7 @@ import React from 'react'
 
 export default (Component) => class WrappedComponent extends React.Component {
     state = {
-        isOpen: false
+        openArticleId: null
     }
 
     toggleOpen = (ev) => {
