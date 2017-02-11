@@ -33,6 +33,7 @@
   "dependencies": {
     "babel-template": "^6.22.0",
     "react": "^15.3.2",
+    "react-addons-css-transition-group": "^15.4.2",
     "react-dom": "^15.3.2",
     "react-modules": "^1.0.8"
     "react-select": "^1.0.0-rc.3"
